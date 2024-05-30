@@ -10,6 +10,7 @@ import java.util.Scanner;
  * 有向图的处理工具类
  */
 public class GraphGenerate {
+
 	/**
 	 * 根据文件路径（名称）生成有向图
 	 * @param fileName 文件路径（名称）
@@ -17,7 +18,7 @@ public class GraphGenerate {
 	 */
 	public static DirectedGraph generateGraph(String fileName) {
 		Scanner in;
-		String pre, post;
+		String pre, post; //前驱和后继
 		DirectedGraph graph = new DirectedGraph();
 		try {
 			in = new Scanner(new FileInputStream(fileName));

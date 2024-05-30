@@ -7,7 +7,10 @@ import java.util.ArrayList;
  */
 public class DirectedGraph {
 	private ArrayList<Vertex> vertices;		//顶点表
-	
+
+	/**
+	 * 初始化方法
+	 */
 	public DirectedGraph() {
 		this.vertices = new ArrayList<>();
 	}
@@ -42,7 +45,6 @@ public class DirectedGraph {
 	}
 
 	/**
-	 *
 	 * @param head 向有向图中添加的边的起点名称
 	 * @param tail 向有向图中添加的边的终点名称
 	 */
