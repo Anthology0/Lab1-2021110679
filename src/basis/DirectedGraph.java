@@ -33,7 +33,6 @@ public class DirectedGraph {
 	}
 
 	/**
-	 *
 	 * @param name 向有向图中添加的节点名称
 	 */
 	public void addVertex(String name) {
@@ -46,7 +45,6 @@ public class DirectedGraph {
 	}
 
 	/**
-	 *
 	 * @param head 向有向图中添加的边的起点名称
 	 * @param tail 向有向图中添加的边的终点名称
 	 */
@@ -75,7 +73,7 @@ public class DirectedGraph {
 	public String toString() {
 		String result = "";
 		for (Vertex v : vertices) {
-			result += v.toString() + ": " + v.successors.toString() + "\n";
+			result = result + v.toString() + ": " + v.successors.toString() + "\n";
 		}
 		return result;
 	}

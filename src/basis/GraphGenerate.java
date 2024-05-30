@@ -67,6 +67,7 @@ public class GraphGenerate {
 	 * @return 选择出的结点
 	 */
 	public static Vertex randomSelect(Collection<Vertex> set) {
+		//异常情况处理
 		if (set == null || set.size() == 0) {
 			return null;
 		}
