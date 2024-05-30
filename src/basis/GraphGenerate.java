@@ -64,7 +64,7 @@ public class GraphGenerate {
 	/**
 	 * 从有向图结点集合中随机选择一个结点
 	 * @param set 待选择的集合
-	 * @return 选择出的结点
+	 * @return 被选择的结点
 	 */
 	public static Vertex randomSelect(Collection<Vertex> set) {
 		//异常情况处理

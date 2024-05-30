@@ -28,7 +28,11 @@ public class DirectedGraph {
 	public int getVertexNumber() {
 		return this.vertices.size();
 	}
-	
+
+	/**
+	 * 获得边的数量
+	 * @return 边的数量
+	 */
 	public int getEdgeNumber() {
 		int number = 0;
 		for (Vertex v : vertices) {
