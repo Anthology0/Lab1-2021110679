@@ -94,7 +94,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @param value 箭头的颜色
      */
     public void setStroke(Paint value) {
@@ -102,7 +101,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @param value 箭头的直线宽度
      */
     public void setStrokeWidth(double value) {
@@ -110,7 +108,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @param value 为直线的起点x坐标设置的值
      */
     public final void setStartX(double value) {
@@ -118,7 +115,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @return 直线的起点x坐标
      */
     public final double getStartX() {
@@ -126,7 +122,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @return 直线的startX属性
      */
     public final DoubleProperty startXProperty() {
@@ -134,7 +129,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @param value 为直线的起点y坐标设置的值
      */
     public final void setStartY(double value) {
@@ -142,7 +136,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @return 直线的起点y坐标
      */
     public final double getStartY() {
@@ -150,7 +143,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @return 直线的startY属性
      */
     public final DoubleProperty startYProperty() {
@@ -158,7 +150,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @param value 为直线的终点x坐标设置的值
      */
     public final void setEndX(double value) {
@@ -166,7 +157,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @return 直线的终点x坐标
      */
     public final double getEndX() {
@@ -174,7 +164,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @return 直线的endX属性
      */
     public final DoubleProperty endXProperty() {
@@ -182,7 +171,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @param value 为直线的终点y坐标设置的值
      */
     public final void setEndY(double value) {
@@ -190,7 +178,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @return 直线的终点y坐标
      */
     public final double getEndY() {
@@ -198,7 +185,6 @@ public class Arrow extends Group {
     }
 
     /**
-     *
      * @return 直线的endY属性
      */
     public final DoubleProperty endYProperty() {

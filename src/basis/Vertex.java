@@ -7,10 +7,10 @@ import java.util.HashSet;
  * 有向图结点类
  */
 public class Vertex {
-	public String name;
-	public HashSet<Vertex> predecessors;
-	public HashSet<Vertex> successors;
-	public HashMap<Vertex, Integer> weights;
+	public String name;						//节点保存的单词
+	public HashSet<Vertex> predecessors;	//前驱节点
+	public HashSet<Vertex> successors;		//后继节点
+	public HashMap<Vertex, Integer> weights;//出边的权重
 	
 	public Vertex() {
 		this.name = null;
