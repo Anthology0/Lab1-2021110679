@@ -18,7 +18,7 @@ public class GraphGenerate {
 	 */
 	public static DirectedGraph generateGraph(String fileName) {
 		Scanner in;
-		String pre, post;
+		String pre, post; //前驱和后继
 		DirectedGraph graph = new DirectedGraph();
 		try {
 			in = new Scanner(new FileInputStream(fileName));
