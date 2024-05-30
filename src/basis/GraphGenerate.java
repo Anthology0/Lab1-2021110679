@@ -10,6 +10,7 @@ import java.util.Scanner;
  * 有向图的处理工具类
  */
 public class GraphGenerate {
+
 	/**
 	 * 根据文件路径（名称）生成有向图
 	 * @param fileName 文件路径（名称）
@@ -62,7 +63,7 @@ public class GraphGenerate {
 	/**
 	 * 从有向图结点集合中随机选择一个结点
 	 * @param set 待选择的集合
-	 * @return 选择出的结点
+	 * @return 被选择的结点
 	 */
 	public static Vertex randomSelect(Collection<Vertex> set) {
 		if (set == null || set.size() == 0) {
