@@ -53,7 +53,6 @@ public class GraphGenerate {
 			for (int i = 0; i < str.length(); ++i) {
 				char c = str.charAt(i);
 				if (Character.isLetter(c)) {
-					//全部转换成小写
 					sb.append(Character.toLowerCase(c));
 				}
 			}

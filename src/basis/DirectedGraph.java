@@ -9,13 +9,8 @@ public class DirectedGraph {
 
 	private ArrayList<Vertex> vertices;		//顶点表
 
-<<<<<<< HEAD
-	/*
-	初始化方法
-=======
 	/**
 	 * 初始化方法
->>>>>>> C4
 	 */
 	public DirectedGraph() {
 		this.vertices = new ArrayList<>();
