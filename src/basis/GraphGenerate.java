@@ -10,6 +10,7 @@ import java.util.Scanner;
  * 有向图的处理工具类
  */
 public class GraphGenerate {
+
 	/**
 	 * 根据文件路径（名称）生成有向图
 	 * @param fileName 文件路径（名称）
@@ -52,6 +53,7 @@ public class GraphGenerate {
 			for (int i = 0; i < str.length(); ++i) {
 				char c = str.charAt(i);
 				if (Character.isLetter(c)) {
+					//全部转换成小写
 					sb.append(Character.toLowerCase(c));
 				}
 			}

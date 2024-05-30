@@ -6,8 +6,12 @@ import java.util.ArrayList;
  * 有向图类
  */
 public class DirectedGraph {
+
 	private ArrayList<Vertex> vertices;		//顶点表
-	
+
+	/*
+	初始化方法
+	 */
 	public DirectedGraph() {
 		this.vertices = new ArrayList<>();
 	}
